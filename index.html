@@ -10,6 +10,11 @@
       href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </head>
 
   <body>
@@ -31,10 +36,7 @@
         <!-- Currency Input Section  -->
         <section class="currency_converter_select">
           <img id="ImgSourceCurrency" src="https://flagcdn.com/w640/us.png" />
-          <select id="selectSourceCurrency">
-            <option value="USD">USD</option>
-            <option value="PKR">PKR</option>
-          </select>
+          <select id="selectSourceCurrency"></select>
         </section>
 
         <!-- Swap Button  -->
@@ -46,16 +48,13 @@
         <!-- Target Currency Input Section  -->
         <section class="currency_converter_select">
           <img id="ImgTargetCurrency" src="https://flagcdn.com/w640/pk.png" />
-          <select id="selectTargetCurrency">
-            <option value="PKR">PKR</option>
-            <option value="USD">USD</option>
-          </select>
+          <select id="selectTargetCurrency"></select>
         </section>
       </div>
 
       <div class="currency_converter_exchange_rate">
         <span id="exchangeRateTxt" class="currency_converter_exchange_rate_text"
-          >0 PKR = 0.00 USD</span
+          >$0  = PKR 0 </span
         >
       </div>
 
@@ -65,6 +64,6 @@
         Convert
       </button>
     </main>
-    <script src="script.js" type="module"></script>
+    <script src="app.js" type="module"></script>
   </body>
 </html>
