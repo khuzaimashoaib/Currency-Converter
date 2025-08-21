@@ -152,7 +152,7 @@ body {
 
 .currency_converter_exchange_rate {
   border: solid 2px rgba(0, 0, 0, 0.2);
-  padding: 12px;
+  padding-block: 12px;
   border-radius: 12px;
   margin-top: 32px;
   text-align: center;
